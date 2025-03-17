@@ -1,0 +1,58 @@
+body, html{
+    background: black;
+    
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+    
+  }
+  
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    z-index: 0;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #fafafa;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #8694F9;
+    color: rgb(0, 0, 0);
+  }
+
+  /* Small screens (e.g., mobile) */
+  @media (max-width: 600px) {
+    .nav {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+  }
+  
+  /* Medium screens (e.g., tablets) */
+  @media (max-width: 1024px) {
+    .btn {
+        font-size: 25px;
+        padding: 9px 18px;
+    }
+  }
+  
+  /* Larger screens (e.g., desktop) */
+  @media (min-width: 1025px) {
+    .btn {
+        font-size: 50px;
+        padding: 10px 20px;
+    }
+  }
